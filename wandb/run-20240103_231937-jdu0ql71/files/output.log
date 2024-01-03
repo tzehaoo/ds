@@ -1,0 +1,28 @@
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[master be26c06] message
+ 26 files changed, 1005 insertions(+), 84 deletions(-)
+ create mode 100644 dvc.ipynb
+ create mode 100644 wandb/run-20240103_170904-atsrz0tp/files/config.yaml
+ create mode 100644 wandb/run-20240103_170904-atsrz0tp/files/requirements.txt
+ create mode 100644 wandb/run-20240103_170904-atsrz0tp/files/wandb-metadata.json
+ create mode 100644 wandb/run-20240103_170904-atsrz0tp/files/wandb-summary.json
+ create mode 100644 wandb/run-20240103_170904-atsrz0tp/logs/debug-internal.log
+ create mode 100644 wandb/run-20240103_170904-atsrz0tp/logs/debug.log
+ create mode 100644 wandb/run-20240103_170904-atsrz0tp/run-atsrz0tp.wandb
+ create mode 100644 wandb/run-20240103_231851-sw4cqlhj/files/config.yaml
+ create mode 100644 wandb/run-20240103_231851-sw4cqlhj/files/output.log
+ create mode 100644 wandb/run-20240103_231851-sw4cqlhj/files/requirements.txt
+ create mode 100644 wandb/run-20240103_231851-sw4cqlhj/files/wandb-metadata.json
+ create mode 100644 wandb/run-20240103_231851-sw4cqlhj/files/wandb-summary.json
+ create mode 100644 wandb/run-20240103_231851-sw4cqlhj/logs/debug-internal.log
+ create mode 100644 wandb/run-20240103_231851-sw4cqlhj/logs/debug.log
+ create mode 100644 wandb/run-20240103_231851-sw4cqlhj/run-sw4cqlhj.wandb
+ create mode 100644 wandb/run-20240103_231937-jdu0ql71/files/config.yaml
+ create mode 100644 wandb/run-20240103_231937-jdu0ql71/files/requirements.txt
+ create mode 100644 wandb/run-20240103_231937-jdu0ql71/files/wandb-metadata.json
+ create mode 100644 wandb/run-20240103_231937-jdu0ql71/logs/debug-internal.log
+ create mode 100644 wandb/run-20240103_231937-jdu0ql71/logs/debug.log
+ create mode 100644 wandb/run-20240103_231937-jdu0ql71/run-jdu0ql71.wandb
+Commit successful.
+<module 'wandb' from '/Users/tzehaotay/Desktop/EmoTech/DS/.venv/lib/python3.11/site-packages/wandb/__init__.py'>

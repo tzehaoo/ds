@@ -33,3 +33,212 @@
 2024-01-03 23:19:39,417 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: stop_status
 2024-01-03 23:19:39,417 DEBUG   SenderThread:14428 [sender.py:send_request():409] send_request: stop_status
 2024-01-03 23:19:39,421 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-03 23:19:39,612 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: pause
+2024-01-03 23:19:39,612 INFO    HandlerThread:14428 [handler.py:handle_request_pause():705] stopping system metrics thread
+2024-01-03 23:19:39,612 INFO    HandlerThread:14428 [system_monitor.py:finish():203] Stopping system monitor
+2024-01-03 23:19:39,613 INFO    HandlerThread:14428 [interfaces.py:finish():202] Joined cpu monitor
+2024-01-03 23:19:39,613 DEBUG   SystemMonitor:14428 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-01-03 23:19:39,613 INFO    HandlerThread:14428 [interfaces.py:finish():202] Joined disk monitor
+2024-01-03 23:19:39,613 DEBUG   SystemMonitor:14428 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-01-03 23:19:39,613 INFO    HandlerThread:14428 [interfaces.py:finish():202] Joined memory monitor
+2024-01-03 23:19:39,613 DEBUG   SystemMonitor:14428 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-01-03 23:19:39,614 INFO    HandlerThread:14428 [interfaces.py:finish():202] Joined network monitor
+2024-01-03 23:19:39,624 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: resume
+2024-01-03 23:19:39,624 INFO    HandlerThread:14428 [handler.py:handle_request_resume():696] starting system metrics thread
+2024-01-03 23:19:39,624 INFO    HandlerThread:14428 [system_monitor.py:start():194] Starting system monitor
+2024-01-03 23:19:39,624 INFO    SystemMonitor:14428 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-01-03 23:19:39,624 INFO    SystemMonitor:14428 [interfaces.py:start():190] Started cpu monitoring
+2024-01-03 23:19:39,627 INFO    SystemMonitor:14428 [interfaces.py:start():190] Started disk monitoring
+2024-01-03 23:19:39,628 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-03 23:19:39,629 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-03 23:19:39,629 INFO    SystemMonitor:14428 [interfaces.py:start():190] Started memory monitoring
+2024-01-03 23:19:39,630 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-03 23:19:39,634 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-03 23:19:39,634 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-03 23:19:39,634 INFO    SystemMonitor:14428 [interfaces.py:start():190] Started network monitoring
+2024-01-03 23:19:39,635 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-03 23:19:39,638 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-03 23:19:39,639 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-03 23:19:39,655 INFO    Thread-73 :14428 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/tzehaotay/Desktop/EmoTech/DS/wandb/run-20240103_231937-jdu0ql71/files/wandb-metadata.json
+2024-01-03 23:19:39,656 INFO    Thread-73 :14428 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/tzehaotay/Desktop/EmoTech/DS/wandb/run-20240103_231937-jdu0ql71/files/requirements.txt
+2024-01-03 23:19:39,849 DEBUG   SenderThread:14428 [sender.py:send():382] send: stats
+2024-01-03 23:19:39,849 DEBUG   SenderThread:14428 [sender.py:send():382] send: history
+2024-01-03 23:19:39,850 DEBUG   SenderThread:14428 [sender.py:send_request():409] send_request: summary_record
+2024-01-03 23:19:39,850 INFO    SenderThread:14428 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-03 23:19:39,850 DEBUG   SenderThread:14428 [sender.py:send():382] send: history
+2024-01-03 23:19:39,850 DEBUG   SenderThread:14428 [sender.py:send_request():409] send_request: summary_record
+2024-01-03 23:19:39,851 INFO    SenderThread:14428 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-03 23:19:39,851 DEBUG   SenderThread:14428 [sender.py:send():382] send: history
+2024-01-03 23:19:39,851 DEBUG   SenderThread:14428 [sender.py:send_request():409] send_request: summary_record
+2024-01-03 23:19:39,851 INFO    SenderThread:14428 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-03 23:19:39,851 DEBUG   SenderThread:14428 [sender.py:send():382] send: history
+2024-01-03 23:19:39,851 DEBUG   SenderThread:14428 [sender.py:send_request():409] send_request: summary_record
+2024-01-03 23:19:39,852 INFO    SenderThread:14428 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-03 23:19:39,852 DEBUG   SenderThread:14428 [sender.py:send():382] send: history
+2024-01-03 23:19:39,852 DEBUG   SenderThread:14428 [sender.py:send_request():409] send_request: summary_record
+2024-01-03 23:19:39,852 INFO    SenderThread:14428 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-03 23:19:39,852 DEBUG   SenderThread:14428 [sender.py:send():382] send: history
+2024-01-03 23:19:39,853 DEBUG   SenderThread:14428 [sender.py:send_request():409] send_request: summary_record
+2024-01-03 23:19:39,853 INFO    SenderThread:14428 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-03 23:19:39,853 DEBUG   SenderThread:14428 [sender.py:send():382] send: history
+2024-01-03 23:19:39,853 DEBUG   SenderThread:14428 [sender.py:send_request():409] send_request: summary_record
+2024-01-03 23:19:39,854 INFO    SenderThread:14428 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-03 23:19:39,854 DEBUG   SenderThread:14428 [sender.py:send():382] send: history
+2024-01-03 23:19:39,854 DEBUG   SenderThread:14428 [sender.py:send_request():409] send_request: summary_record
+2024-01-03 23:19:39,854 INFO    SenderThread:14428 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-03 23:19:39,854 DEBUG   SenderThread:14428 [sender.py:send():382] send: telemetry
+2024-01-03 23:19:39,854 DEBUG   SenderThread:14428 [sender.py:send():382] send: exit
+2024-01-03 23:19:39,854 INFO    SenderThread:14428 [sender.py:send_exit():589] handling exit code: 0
+2024-01-03 23:19:39,854 INFO    SenderThread:14428 [sender.py:send_exit():591] handling runtime: 0
+2024-01-03 23:19:39,855 INFO    SenderThread:14428 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-03 23:19:39,855 INFO    SenderThread:14428 [sender.py:send_exit():597] send defer
+2024-01-03 23:19:39,855 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: defer
+2024-01-03 23:19:39,855 INFO    HandlerThread:14428 [handler.py:handle_request_defer():172] handle defer: 0
+2024-01-03 23:19:39,855 DEBUG   SenderThread:14428 [sender.py:send_request():409] send_request: defer
+2024-01-03 23:19:39,855 INFO    SenderThread:14428 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-01-03 23:19:39,855 INFO    SenderThread:14428 [sender.py:transition_state():617] send defer: 1
+2024-01-03 23:19:39,855 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: defer
+2024-01-03 23:19:39,855 INFO    HandlerThread:14428 [handler.py:handle_request_defer():172] handle defer: 1
+2024-01-03 23:19:39,856 DEBUG   SenderThread:14428 [sender.py:send_request():409] send_request: defer
+2024-01-03 23:19:39,856 INFO    SenderThread:14428 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-01-03 23:19:39,856 INFO    SenderThread:14428 [sender.py:transition_state():617] send defer: 2
+2024-01-03 23:19:39,856 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: defer
+2024-01-03 23:19:39,856 INFO    HandlerThread:14428 [handler.py:handle_request_defer():172] handle defer: 2
+2024-01-03 23:19:39,856 INFO    HandlerThread:14428 [system_monitor.py:finish():203] Stopping system monitor
+2024-01-03 23:19:39,856 DEBUG   SystemMonitor:14428 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-01-03 23:19:39,856 INFO    HandlerThread:14428 [interfaces.py:finish():202] Joined cpu monitor
+2024-01-03 23:19:39,856 DEBUG   SystemMonitor:14428 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-01-03 23:19:39,856 INFO    HandlerThread:14428 [interfaces.py:finish():202] Joined disk monitor
+2024-01-03 23:19:39,856 DEBUG   SystemMonitor:14428 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-01-03 23:19:39,856 INFO    HandlerThread:14428 [interfaces.py:finish():202] Joined memory monitor
+2024-01-03 23:19:39,857 INFO    HandlerThread:14428 [interfaces.py:finish():202] Joined network monitor
+2024-01-03 23:19:39,857 DEBUG   SenderThread:14428 [sender.py:send_request():409] send_request: defer
+2024-01-03 23:19:39,857 INFO    SenderThread:14428 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-01-03 23:19:39,857 INFO    SenderThread:14428 [sender.py:transition_state():617] send defer: 3
+2024-01-03 23:19:39,857 DEBUG   SenderThread:14428 [sender.py:send():382] send: stats
+2024-01-03 23:19:39,857 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: defer
+2024-01-03 23:19:39,858 INFO    HandlerThread:14428 [handler.py:handle_request_defer():172] handle defer: 3
+2024-01-03 23:19:39,858 DEBUG   SenderThread:14428 [sender.py:send_request():409] send_request: defer
+2024-01-03 23:19:39,858 INFO    SenderThread:14428 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-01-03 23:19:39,858 INFO    SenderThread:14428 [sender.py:transition_state():617] send defer: 4
+2024-01-03 23:19:39,858 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: defer
+2024-01-03 23:19:39,858 INFO    HandlerThread:14428 [handler.py:handle_request_defer():172] handle defer: 4
+2024-01-03 23:19:39,858 DEBUG   SenderThread:14428 [sender.py:send_request():409] send_request: defer
+2024-01-03 23:19:39,858 INFO    SenderThread:14428 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-01-03 23:19:39,858 INFO    SenderThread:14428 [sender.py:transition_state():617] send defer: 5
+2024-01-03 23:19:39,858 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: defer
+2024-01-03 23:19:39,858 INFO    HandlerThread:14428 [handler.py:handle_request_defer():172] handle defer: 5
+2024-01-03 23:19:39,858 DEBUG   SenderThread:14428 [sender.py:send():382] send: summary
+2024-01-03 23:19:39,859 INFO    SenderThread:14428 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-03 23:19:39,859 DEBUG   SenderThread:14428 [sender.py:send_request():409] send_request: defer
+2024-01-03 23:19:39,859 INFO    SenderThread:14428 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-01-03 23:19:39,859 INFO    SenderThread:14428 [sender.py:transition_state():617] send defer: 6
+2024-01-03 23:19:39,859 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: defer
+2024-01-03 23:19:39,859 INFO    HandlerThread:14428 [handler.py:handle_request_defer():172] handle defer: 6
+2024-01-03 23:19:39,859 DEBUG   SenderThread:14428 [sender.py:send_request():409] send_request: defer
+2024-01-03 23:19:39,859 INFO    SenderThread:14428 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-01-03 23:19:39,862 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: status_report
+2024-01-03 23:19:40,106 INFO    SenderThread:14428 [sender.py:transition_state():617] send defer: 7
+2024-01-03 23:19:40,106 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: defer
+2024-01-03 23:19:40,106 INFO    HandlerThread:14428 [handler.py:handle_request_defer():172] handle defer: 7
+2024-01-03 23:19:40,106 DEBUG   SenderThread:14428 [sender.py:send_request():409] send_request: defer
+2024-01-03 23:19:40,106 INFO    SenderThread:14428 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-01-03 23:19:40,299 INFO    wandb-upload_0:14428 [upload_job.py:push():131] Uploaded file /var/folders/tw/j93p458s0y99b6dmf_qqzxsc0000gn/T/tmpbmshuw7_wandb/hz2lk77l-wandb-metadata.json
+2024-01-03 23:19:40,633 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-03 23:19:40,659 INFO    Thread-73 :14428 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/tzehaotay/Desktop/EmoTech/DS/wandb/run-20240103_231937-jdu0ql71/files/config.yaml
+2024-01-03 23:19:40,659 INFO    Thread-73 :14428 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/tzehaotay/Desktop/EmoTech/DS/wandb/run-20240103_231937-jdu0ql71/files/wandb-summary.json
+2024-01-03 23:19:40,659 INFO    Thread-73 :14428 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/tzehaotay/Desktop/EmoTech/DS/wandb/run-20240103_231937-jdu0ql71/files/output.log
+2024-01-03 23:19:42,661 INFO    Thread-73 :14428 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/tzehaotay/Desktop/EmoTech/DS/wandb/run-20240103_231937-jdu0ql71/files/output.log
+2024-01-03 23:19:43,863 INFO    SenderThread:14428 [sender.py:transition_state():617] send defer: 8
+2024-01-03 23:19:43,863 DEBUG   SenderThread:14428 [sender.py:send_request():409] send_request: poll_exit
+2024-01-03 23:19:43,864 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: defer
+2024-01-03 23:19:43,864 INFO    HandlerThread:14428 [handler.py:handle_request_defer():172] handle defer: 8
+2024-01-03 23:19:43,864 DEBUG   SenderThread:14428 [sender.py:send_request():409] send_request: defer
+2024-01-03 23:19:43,864 INFO    SenderThread:14428 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-01-03 23:19:43,864 INFO    SenderThread:14428 [job_builder.py:build():298] Attempting to build job artifact
+2024-01-03 23:19:43,865 INFO    SenderThread:14428 [job_builder.py:_get_source_type():439] no source found
+2024-01-03 23:19:43,865 INFO    SenderThread:14428 [sender.py:transition_state():617] send defer: 9
+2024-01-03 23:19:43,865 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: defer
+2024-01-03 23:19:43,866 INFO    HandlerThread:14428 [handler.py:handle_request_defer():172] handle defer: 9
+2024-01-03 23:19:43,866 DEBUG   SenderThread:14428 [sender.py:send_request():409] send_request: defer
+2024-01-03 23:19:43,866 INFO    SenderThread:14428 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-01-03 23:19:43,866 INFO    SenderThread:14428 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-01-03 23:19:44,644 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-03 23:19:44,664 INFO    SenderThread:14428 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/tzehaotay/Desktop/EmoTech/DS/wandb/run-20240103_231937-jdu0ql71/files/output.log
+2024-01-03 23:19:44,665 INFO    SenderThread:14428 [dir_watcher.py:finish():388] scan: /Users/tzehaotay/Desktop/EmoTech/DS/wandb/run-20240103_231937-jdu0ql71/files
+2024-01-03 23:19:44,665 INFO    SenderThread:14428 [dir_watcher.py:finish():402] scan save: /Users/tzehaotay/Desktop/EmoTech/DS/wandb/run-20240103_231937-jdu0ql71/files/requirements.txt requirements.txt
+2024-01-03 23:19:44,666 INFO    SenderThread:14428 [dir_watcher.py:finish():402] scan save: /Users/tzehaotay/Desktop/EmoTech/DS/wandb/run-20240103_231937-jdu0ql71/files/output.log output.log
+2024-01-03 23:19:44,667 INFO    SenderThread:14428 [dir_watcher.py:finish():402] scan save: /Users/tzehaotay/Desktop/EmoTech/DS/wandb/run-20240103_231937-jdu0ql71/files/config.yaml config.yaml
+2024-01-03 23:19:44,670 INFO    SenderThread:14428 [dir_watcher.py:finish():402] scan save: /Users/tzehaotay/Desktop/EmoTech/DS/wandb/run-20240103_231937-jdu0ql71/files/wandb-summary.json wandb-summary.json
+2024-01-03 23:19:44,672 INFO    SenderThread:14428 [dir_watcher.py:finish():402] scan save: /Users/tzehaotay/Desktop/EmoTech/DS/wandb/run-20240103_231937-jdu0ql71/files/wandb-metadata.json wandb-metadata.json
+2024-01-03 23:19:44,673 INFO    SenderThread:14428 [sender.py:transition_state():617] send defer: 10
+2024-01-03 23:19:44,673 DEBUG   SenderThread:14428 [sender.py:send_request():409] send_request: poll_exit
+2024-01-03 23:19:44,675 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: defer
+2024-01-03 23:19:44,675 INFO    HandlerThread:14428 [handler.py:handle_request_defer():172] handle defer: 10
+2024-01-03 23:19:44,676 DEBUG   SenderThread:14428 [sender.py:send_request():409] send_request: defer
+2024-01-03 23:19:44,676 INFO    SenderThread:14428 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-01-03 23:19:44,677 INFO    SenderThread:14428 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-03 23:19:45,287 INFO    wandb-upload_0:14428 [upload_job.py:push():131] Uploaded file /Users/tzehaotay/Desktop/EmoTech/DS/wandb/run-20240103_231937-jdu0ql71/files/requirements.txt
+2024-01-03 23:19:45,648 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-03 23:19:45,648 DEBUG   SenderThread:14428 [sender.py:send_request():409] send_request: poll_exit
+2024-01-03 23:19:46,649 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-03 23:19:46,650 DEBUG   SenderThread:14428 [sender.py:send_request():409] send_request: poll_exit
+2024-01-03 23:19:47,061 INFO    wandb-upload_2:14428 [upload_job.py:push():131] Uploaded file /Users/tzehaotay/Desktop/EmoTech/DS/wandb/run-20240103_231937-jdu0ql71/files/config.yaml
+2024-01-03 23:19:47,655 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-03 23:19:47,655 DEBUG   SenderThread:14428 [sender.py:send_request():409] send_request: poll_exit
+2024-01-03 23:19:48,657 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-03 23:19:48,658 DEBUG   SenderThread:14428 [sender.py:send_request():409] send_request: poll_exit
+2024-01-03 23:19:49,326 INFO    wandb-upload_1:14428 [upload_job.py:push():131] Uploaded file /Users/tzehaotay/Desktop/EmoTech/DS/wandb/run-20240103_231937-jdu0ql71/files/output.log
+2024-01-03 23:19:49,663 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-03 23:19:49,663 DEBUG   SenderThread:14428 [sender.py:send_request():409] send_request: poll_exit
+2024-01-03 23:19:49,663 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: status_report
+2024-01-03 23:19:50,665 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-03 23:19:50,666 DEBUG   SenderThread:14428 [sender.py:send_request():409] send_request: poll_exit
+2024-01-03 23:19:51,670 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-03 23:19:51,671 DEBUG   SenderThread:14428 [sender.py:send_request():409] send_request: poll_exit
+2024-01-03 23:19:52,672 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-03 23:19:52,672 DEBUG   SenderThread:14428 [sender.py:send_request():409] send_request: poll_exit
+2024-01-03 23:19:53,676 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-03 23:19:53,677 DEBUG   SenderThread:14428 [sender.py:send_request():409] send_request: poll_exit
+2024-01-03 23:19:54,113 INFO    wandb-upload_3:14428 [upload_job.py:push():131] Uploaded file /Users/tzehaotay/Desktop/EmoTech/DS/wandb/run-20240103_231937-jdu0ql71/files/wandb-summary.json
+2024-01-03 23:19:54,318 INFO    Thread-72 (_thread_body):14428 [sender.py:transition_state():617] send defer: 11
+2024-01-03 23:19:54,319 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: defer
+2024-01-03 23:19:54,319 INFO    HandlerThread:14428 [handler.py:handle_request_defer():172] handle defer: 11
+2024-01-03 23:19:54,319 DEBUG   SenderThread:14428 [sender.py:send_request():409] send_request: defer
+2024-01-03 23:19:54,319 INFO    SenderThread:14428 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-01-03 23:19:54,319 INFO    SenderThread:14428 [file_pusher.py:join():181] waiting for file pusher
+2024-01-03 23:19:54,319 INFO    SenderThread:14428 [sender.py:transition_state():617] send defer: 12
+2024-01-03 23:19:54,319 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: defer
+2024-01-03 23:19:54,319 INFO    HandlerThread:14428 [handler.py:handle_request_defer():172] handle defer: 12
+2024-01-03 23:19:54,320 DEBUG   SenderThread:14428 [sender.py:send_request():409] send_request: defer
+2024-01-03 23:19:54,320 INFO    SenderThread:14428 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-01-03 23:19:54,320 INFO    SenderThread:14428 [file_stream.py:finish():595] file stream finish called
+2024-01-03 23:19:54,635 INFO    SenderThread:14428 [file_stream.py:finish():599] file stream finish is done
+2024-01-03 23:19:54,636 INFO    SenderThread:14428 [sender.py:transition_state():617] send defer: 13
+2024-01-03 23:19:54,636 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: defer
+2024-01-03 23:19:54,636 INFO    HandlerThread:14428 [handler.py:handle_request_defer():172] handle defer: 13
+2024-01-03 23:19:54,636 DEBUG   SenderThread:14428 [sender.py:send_request():409] send_request: defer
+2024-01-03 23:19:54,636 INFO    SenderThread:14428 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-01-03 23:19:54,636 INFO    SenderThread:14428 [sender.py:transition_state():617] send defer: 14
+2024-01-03 23:19:54,636 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: defer
+2024-01-03 23:19:54,636 INFO    HandlerThread:14428 [handler.py:handle_request_defer():172] handle defer: 14
+2024-01-03 23:19:54,637 DEBUG   SenderThread:14428 [sender.py:send():382] send: final
+2024-01-03 23:19:54,639 DEBUG   SenderThread:14428 [sender.py:send():382] send: footer
+2024-01-03 23:19:54,639 DEBUG   SenderThread:14428 [sender.py:send_request():409] send_request: defer
+2024-01-03 23:19:54,639 INFO    SenderThread:14428 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-01-03 23:19:54,640 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-03 23:19:54,640 DEBUG   SenderThread:14428 [sender.py:send_request():409] send_request: poll_exit
+2024-01-03 23:19:54,640 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-03 23:19:54,641 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: server_info
+2024-01-03 23:19:54,642 DEBUG   SenderThread:14428 [sender.py:send_request():409] send_request: server_info
+2024-01-03 23:19:54,643 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: get_summary
+2024-01-03 23:19:54,644 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: sampled_history
+2024-01-03 23:19:54,644 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: job_info
+2024-01-03 23:19:54,865 DEBUG   SenderThread:14428 [sender.py:send_request():409] send_request: job_info
+2024-01-03 23:19:54,866 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: status_report
+2024-01-03 23:19:54,868 DEBUG   HandlerThread:14428 [handler.py:handle_request():146] handle_request: shutdown
+2024-01-03 23:19:54,868 INFO    HandlerThread:14428 [handler.py:finish():866] shutting down handler
+2024-01-03 23:19:55,870 INFO    SenderThread:14428 [sender.py:finish():1548] shutting down sender
+2024-01-03 23:19:55,870 INFO    WriterThread:14428 [datastore.py:close():294] close: /Users/tzehaotay/Desktop/EmoTech/DS/wandb/run-20240103_231937-jdu0ql71/run-jdu0ql71.wandb
+2024-01-03 23:19:55,870 INFO    SenderThread:14428 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-03 23:19:55,870 INFO    SenderThread:14428 [file_pusher.py:join():181] waiting for file pusher
