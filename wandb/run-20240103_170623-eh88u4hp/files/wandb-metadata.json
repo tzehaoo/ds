@@ -1,0 +1,44 @@
+{
+    "os": "macOS-14.1.1-x86_64-i386-64bit",
+    "python": "3.11.6",
+    "heartbeatAt": "2024-01-03T09:06:24.504187",
+    "startedAt": "2024-01-03T09:06:23.588567",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": null,
+        "commit": "d3b6c7d2401355e5f07fd1cbf9cda78deac1d89d"
+    },
+    "email": "jtth95@gmail.com",
+    "root": "/Users/tzehaotay/Desktop/EmoTech",
+    "host": "Tzes-MBP",
+    "username": "tzehaotay",
+    "executable": "/Users/tzehaotay/Desktop/EmoTech/DS/.venv/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2200,
+        "min": 2200,
+        "max": 2200
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2200,
+            "min": 2200,
+            "max": 2200
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 233.46913528442383,
+            "used": 9.537906646728516
+        }
+    },
+    "memory": {
+        "total": 16.0
+    }
+}
